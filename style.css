@@ -1,0 +1,54 @@
+#calc-contain{
+    position: relative;
+    width: 400px;
+    border: 2px solid black;
+    border-radius: 12px;
+    margin: 0px auto;
+    padding: 20px 20px 100px 20px;
+  }
+  h1{
+    text-align:center;
+    font-family: Algerian;
+    font-size:25px;
+    color:blue;
+  }
+  h2{
+      text-align:center;
+    font-family: Algerian;
+    font-size:25px;
+    color:blue;
+  }
+  h3{
+      text-align:center;
+    font-family: Algerian;
+    font-size:25px;
+    color:blue;
+  }
+  
+  input[type=button] {
+    background: lightGray;
+    width: 20%;
+    font-size: 20px;
+    font-weight: 900;
+    border-radius: 7px;
+    margin-left: 13px;
+    margin-top: 10px;
+  }
+  input[type=button]:active {
+    background-color: green;
+    box-shadow: 0 5px black;
+    transform: translateY(4px);
+  }
+  input[type=button]:hover {
+    background-color: green;
+    color: white;
+  }
+  
+  input[type = text] {
+    display: block;
+    width: 90%;
+    margin: 10px auto;
+    font-size: 20px;
+    padding: 10px;
+    box-shadow: 8px 0px 10px black inset;
+  }
